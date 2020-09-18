@@ -14,6 +14,7 @@ int main(void) {
     // Add a person
 
     // add_person("Me", &number_of_people);
+    add_person("Lachlan 😎", &number_of_people);
 
     // Print the number of attendees
     print_attendees(&number_of_people);
