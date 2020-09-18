@@ -10,10 +10,10 @@ void add_person(const char*, float*);
 
 int main(void) {
     printf("%sAttendees%s\n", GREEN, RESET);
-    float number_of_people = 25.0f;
+    float number_of_people = 0.0f;
     // Add a person
 
-    // add_person("Me", &number_of_people);
+    add_person("Chris Raven", &number_of_people);
 
     // Print the number of attendees
     print_attendees(&number_of_people);
