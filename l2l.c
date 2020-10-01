@@ -30,3 +30,4 @@ void print_attendees(float* maybe_number) {
     // Print the number of people as a whole number
     printf("\nTotal: %s%i%s People\n", RED, (int)*maybe_number, RESET);
 }
+// Himanshu
